@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CLC K-Hub || Home</title>
+        <link rel="icon" type="image/x-icon" href="pshslogo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Comfortaa&family=Montserrat&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/sidebar-accordion.css">
+        <script src="js/sidebar-accordion.js"></script>
+
+        <style>
+            body{
+                background-color: #ece6db;
+                height: 100%;
+            }
+            .KHUBlogo{
+                color: #ece6db;
+                font-family: 'Bebas Neue';
+                font-size: 5vw;
+                
+              }
+
+            .courses{
+              font-family: 'Roboto', sans-serif;
+            }
+
+            .header, .title{
+              font-family: 'Bebas Neue';
+            }
+
+            nav{
+                font-family: 'Bebas Neue';
+                font-size: larger;
+                padding: 0;
+                background-color: #ece6db;
+            }
+
+            @media screen and (min-width: 768px){
+              .courses {
+              padding-left: 50px;
+            }
+            }
+
+            .subjects{
+              background-color: #6B6E63;
+            }
+
+            .card-title{
+              font-family: 'Roboto', sans-serif;
+              text-decoration: none;
+            }
+
+            .card-title:hover{
+              text-decoration: underline;
+            }
+
+            .offcanvas{
+              color: #ECE6DB;
+              background-color: #8A8D83;
+            }
+
+
+            #sidebar-nav {
+             width: 160px;
+            }
+
+            
+
+        </style>
+ 
+    </head>
+
+
+    <body>
+
+      <div class="header position-relative">
+        <h1 class="KHUBlogo text-end p-2 float-end position-absolute end-0">PSHS - CLC KNOWLEDGE HUB</h1>
+          <img src="header.png" alt="pisayheadbgpic" style="width: 100%;">
+      </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: rgb(149, 145, 136);">
+
+          <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mx-auto">
+                <a class="nav-item nav-link mx-2" href="home.html"><img src="home.png" alt="home" width="20">&nbsp; Home</a>
+                <a class="nav-item nav-link mx-2" href="calendar.html"><img src="calendar.png" alt="home" width="20">&nbsp;Calendar</a>
+                <a class="nav-item nav-link mx-2" href="author.html"><img src="authors.png" alt="home" width="20">&nbsp;Authors</a>
+                <a class="nav-item nav-link mx-2" href="grades.html"><img src="grades.png" alt="home" width="20">&nbsp; Grades</a>
+                <a class="nav-item nav-link mx-2" href="index.html"><img src="leave.png" alt="home" width="20">&nbsp; Log-Out</a>
+              </div>         
+            </div>
+
+        </nav>
+  
+        <main>
+
+
+          <button class="btn btn-outline-dark float-end m-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Timeline
+        </button>
+
+        <div class="offcanvas offcanvas-end" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title header" id="offcanvasExampleLabel">Timeline</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body courses">
+                <h4>Monday, January 16</h4>
+                <ul>
+                  <li>Computer Science 3 - 2Q Project: Knowledge Hub, Reimagined</li>
+                  <li>Quiz on Responsive Web Design</li>
+                </ul>
+                <h4>Friday, January 20</h4>
+                <ul>
+                  <li>Mathematics 3 - Q2 Formative Assessment 13</li>
+                  <li>Mathematics 3 - Quarter 2 Alternative Assessment</li>
+                </ul>
+                <h4>Monday, January 23 - Wednesday, January 25</h4>
+                <ul>
+                  <li>Q2 Periodical Exams</li>
+                </ul>
+                <h4>Wednesday, February 15</h4>
+                <ul>
+                  <li>Social Graces</li>
+                </ul>
+                <h4>Friday, February 17</h4>
+                <ul>
+                  <li>Prom</li>
+                </ul>
+                </div>
+            </div>
+              
+              <div class="container pt-4">
+                  <h1 class="title mx-auto ms-5">My Courses</h1>
+              </div>
+            
+              <div class="container-lg">
+
+                <div class="row row-cols-1 row-cols-md-2 p-4 rounded-5" style="background-color: #6B6E63;">
+
+                  <div class="col py-4">
+                    <div class="card border border-5 border-dark">
+                      <img src="bio.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Biology 1 - Ms. Clarisse Muli</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col py-4">
+                    <div class="card border border-5 border-dark">
+                      <img src="comsci.JPG" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        
+                        <a href="subject.html" class="link-secondary">Computer Science 3 - Sir Jan Michael Ibanez</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col py-4">
+                    <div class="card border border-5 border-dark">
+                      <img src="english.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">English 3 - Ma'am Angelou T. Dizon</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col py-4">
+                    <div class="card border border-5 border-dark">
+                      <img src="math.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mathematics 3 - Sir Mar Fernandez</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col py-4">
+                    <div class="card border border-5 border-dark">
+                      <img src="physic.JPG" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Physics 1 - Sir Jan-Derrick Junio</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col py-4">
+                    <div class="card border border-5 border-dark">
+                      <img src="socsci.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Social Science 3 - Mrs. Marinel Garcia</h5>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+             
+        </main>
+    </body>
+
+
+</html>

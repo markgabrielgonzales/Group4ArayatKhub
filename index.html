@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CLC K-Hub</title>
+        <link rel="icon" type="image/x-icon" href="pshslogo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E%22%3E%22%3E">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Comfortaa&family=Montserrat&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="style.css" rel="style">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        
+
+        <style>
+    body{
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      height: 110%; 
+      width: 100%; 
+      margin: 0; 
+    }
+
+    .login {
+      background-color: rgba(218, 212, 201, 0.95);
+      width: 60%;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 100px;
+    }
+
+    @media screen and (min-width: 768px){
+    .login {
+     display: flex;
+     font-family: 'Roboto', sans-serif;
+    }
+  }
+
+    @media screen and (max-width: 768px){
+    .header-text {
+     font-size: 50%;
+    }
+  }
+
+    @media screen and (max-width: 768px){
+      .login {
+      width: 80%;
+    } 
+  }
+
+    @media screen and (min-width: 768px){
+      .vr {
+      display:flex;
+      height: 378px; 
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+    @media screen and (max-width: 767px){
+      .vr {
+      display: none;
+    }
+    }
+
+    .header-text {
+     color: black;
+     font-size: 300%;
+     font-family:'Bebas Neue';
+     font-weight: normal;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="mb-4 shadow-lg" style="background-color: rgba(218, 212, 201, 0.9);">
+    <h1 class="px-3 py-3 sx-3 header-text"><img src="pshslogo.png" alt="logo" width="60">&nbsp; PSHS-CLC Knowledge Hub</h1>
+  </div>
+
+<main>
+
+  <div class="login container p-3 rounded-5 shadow">
+
+      <div class="col p-2 px-4">
+                <p class="heading text-center pb-4"><strong>Sign-In to K-Hub</strong></p>
+        <form class="pb-5">
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="text" class="form-control" placeholder="Username or Email" aria-label="Username or Email">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="text" class="form-control" placeholder="Password" aria-label="Password">
+          </div>
+          <div class="d-grid gap-2">
+            <a class="btn btn-dark" href="home.html">Log In</a>
+          </div>
+          <div class="d-flex align-items-center justify-content-center py-2">
+           <a href="#" class="link-primary">Lost your password?</a>
+          </div>
+        </form>
+    
+  </div>
+
+    <div class="vr"></div> 
+
+        <div class="col p-2 px-4">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <p class="heading"><strong>Sign-In using Google</strong></p>
+          <a class="btn btn-outline-dark rounded-3" href="home.html"><img src="google.png" alt="google" width="20">&nbsp; Sign-In</a>
+        </div>
+        <div>
+          <h5 class="heading text-center pt-3 "><strong>Welcome to the Reimagined   PSHS-CLC Knowledge Hub!</strong></h5>
+          <p class="sub">For students and faculty, please click the Google icon and select / type in your PSHS-provided email address and your password. There is no need to type inside the username and password fields.</p>
+          <p class="sub">For guests, please log-in using your given username and password by typing them in the username and password fields. </p>
+        </div>
+        
+        </div>
+  </div>
+</main>
+</body>
+
+</html>

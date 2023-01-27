@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--font-family: 'Bebas Neue';
+        font-family: 'Poppins', sans-serif;-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CLC K-Hub</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Comfortaa&family=Montserrat&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="style.css" rel="style">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css%22%3E">
+
+
+        <style>
+            body{
+                background-color: #ece6db;
+            }
+            .KHUBlogo{
+                color: #ece6db;
+                font-family: 'Bebas Neue';
+                font-size: 5vw;
+                position: absolute;
+                display: flex;
+                justify-content: right;
+                width: 100%;
+                height: 100%;
+                padding-right: 2%;
+            }
+            nav{
+                font-family: 'Bebas Neue';
+                font-size: larger;
+                margin: auto;
+            }
+            .month{
+                font-family: 'Bebas Neue';
+                text-align: center;
+                margin: 3%;
+            }
+            .calendar{
+                margin: auto;
+                font-family: 'Bebas Neue';
+                font-size: 1vw;
+                width: 100%;
+                border-width: 10px;
+                border-color: #8a8d83;
+                table-layout: fixed;
+            }
+            .days{
+                text-align: center;
+                border-width: 5px;
+                font-size: 2vw;
+            }
+            td{
+                border: 5px solid #8a8d83;
+                border-collapse: collapse;
+                font-size: 2vw;
+            }
+            header{
+                font-size: 5vw !important;
+            }
+            ul{
+                padding: 3vw;
+            }
+        </style>
+ 
+    </head>
+
+
+    <body>
+
+        <div class="header position-relative">
+            <h1 class="KHUBlogo text-end p-2 float-end position-absolute end-0">PSHS - CLC KNOWLEDGE HUB</h1>
+              <img src="header.png" alt="pisayheadbgpic" style="width: 100%;">
+          </div>
+    
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: rgb(149, 145, 136);">
+    
+              <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link mx-2" href="home.html"><img src="home.png" alt="home" width="20">&nbsp; Home</a>
+                    <a class="nav-item nav-link mx-2" href="calendar.html"><img src="calendar.png" alt="home" width="20">&nbsp;Calendar</a>
+                    <a class="nav-item nav-link mx-2" href="author.html"><img src="authors.png" alt="home" width="20">&nbsp;Authors</a>
+                    <a class="nav-item nav-link mx-2" href="grades.html"><img src="grades.png" alt="home" width="20">&nbsp; Grades</a>
+                    <a class="nav-item nav-link mx-2" href="index.html"><img src="leave.png" alt="home" width="20">&nbsp; Log-Out</a>
+                  </div>         
+                </div>
+    
+            </nav>
+
+
+        <main>
+            <h1 class="month"> ← JANUARY 2023 →</h1>
+            <table class="calendar">
+                <tr class="days">
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr>
+                    <td><br>1</td>
+                    <td><br>2<br></td>
+                    <td><br>3<br></td>
+                    <td><br>4<br></td>
+                    <td><br>5<br></td>
+                    <td><br>6<br></td>
+                    <td><br>7<br></td>
+                </tr>
+                <tr>
+                    <td><br>8</td>
+                    <td><br>9</td>
+                    <td><br>10</td>
+                    <td><br>11</td>
+                    <td><br>12</td>
+                    <td><br>13</td>
+                    <td><br>14</td>
+                </tr>
+                <tr>
+                    <td><br>15</td>
+                    <td>16
+                        <ul>
+                            <li>CS3 - 2Q Project: Knowledge Hub, Reimagined</li>
+                            <li>CS3 - Quiz on Responsive Web Design</li>
+                        </ul>
+                    </td>
+                    <td><br>17</td>
+                    <td><br>18</td>
+                    <td><br>19</td>
+                    <td><br>20 <ul>
+                        <li>Math 3 - Q2 Formative Assessment 3</li>
+                        <li>Math 3 - Q2 Alternative Assessment</li>
+                    </ul></td>
+                    <td><br>21</td>
+                </tr>
+                <tr>
+                    <td><br>22</td>
+                    <td><br>23 <ul>
+                        <li>Start of Periodical Exams</li>
+                    </ul></td>
+                    <td><br>24</td>
+                    <td><br>25 <ul>
+                        <li>End of Periodical Exams</li>
+                    </ul></td>
+                    <td><br>26</td>
+                    <td><br>27</td>
+                    <td><br>28</td>
+                </tr>
+                <tr>
+                    <td><br>29</td>
+                    <td><br>30</td>
+                    <td><br>31</td>
+                    <td><br></td>
+                    <td><br></td>
+                    <td><br></td>
+                    <td><br></td>
+                </tr>
+            </table>
+        </main>
+    </body>
+
+
+</html>
